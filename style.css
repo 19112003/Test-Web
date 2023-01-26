@@ -1,0 +1,88 @@
+
+body
+{
+   /*background-image: url("OIP.jpg");
+   background-attachment: scroll;*/
+   /*background-color: bisque;*/
+   /*background-repeat: repeat-y;*/
+   background: url("OIP.jpg") top right no-repeat scroll, bisque;
+   color: black;
+   
+}
+
+.intro
+{
+    color: rgb(197, 4, 223);
+    font-size: 1em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+   
+}
+
+h1
+{
+    font-size:1.9em;
+    color: #ffb700;
+    /*font-family:  'Segoe UI', Tahoma, Geneva, Verdana, serif*/
+   font-style: italic;
+   text-decoration: underline;
+   text-align: center;
+   border: 3px blue dotted;
+   width: 250px;
+   
+   
+    
+
+ }
+
+ .adjectif
+ {
+    color:red;
+    font-size: medium;
+    font-weight: bold;
+ }
+
+ .imagefloat
+ {
+    /*float: left;*/
+    border: 2px pink solid;
+    box-shadow: 6px 6px 6px black; 
+ }
+
+mark
+{
+   color: rgb(0, 0, 0);
+   background-color:rgb(174, 110, 30)
+}
+
+a
+{
+   color: red;
+   text-decoration: none
+}
+
+a:hover
+{
+   text-decoration: underline;
+   color:rgb(197, 4, 223)
+}
+
+/*a:visited
+{
+   color: aqua;
+}*/
+
+.bloc
+{
+   width: 350px;
+   background-color: #f1c864;
+   text-align: justify;
+   padding: 16px 15px 12px 15px;
+   margin: auto;
+   
+}
+
+.container
+{
+   display: flex;
+   flex-direction: column;
+}
